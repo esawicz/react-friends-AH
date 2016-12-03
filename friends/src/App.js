@@ -1,0 +1,25 @@
+import React, { Component } from 'react';
+import './App.css';
+import FriendsList from './components/FriendsList.js';
+
+
+class App extends Component {
+  constructor(props) {
+    super(props);
+  }
+
+
+
+   render() {
+     return (
+       <div>
+         <h1>The <strong>facebook</strong> Friend Machine</h1>
+         <div className="friends">
+         </div>
+       <FriendsList/>
+       </div>
+     );
+   }
+}
+
+export default App;
